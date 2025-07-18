@@ -3,7 +3,7 @@
 if [ -d "env" ]; then
     echo "Python virtual environment already exists."
 else
-    python -m venv env   
+    python3 -m venv env   
 fi
 
 echo $PWD
