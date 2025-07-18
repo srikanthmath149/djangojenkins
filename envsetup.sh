@@ -7,7 +7,11 @@ else
 fi
 
 echo $PWD
+
 source env/bin/activate
+
+pip3 install -r requirements.txt
+
 
 if [-d "logs"]  then
     echo "Logs directory already exists."
